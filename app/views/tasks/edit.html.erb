@@ -1,0 +1,12 @@
+<h1>i am edit page</h1>
+
+<p><%= @task.title %></p>
+
+<%= render "form", task: @task %>
+
+  <%# <div>
+    <input type="checkbox" id="scales" name="scales" checked />
+    <label for="scales">Scales</label>
+  </div> %>
+
+<%= link_to 'Back', tasks_path %>
